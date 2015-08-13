@@ -1,0 +1,7 @@
+[
+  { "problemId":2,
+    "seed":0,
+    "tag":"Phrase: R'yleh",
+    "solution":"'''''R'yleh"
+  }
+]

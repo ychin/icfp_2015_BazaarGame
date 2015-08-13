@@ -1,0 +1,7 @@
+[
+  { "problemId":23,
+    "seed":0,
+    "tag":"Genetic AIGenes 08/10/15 01:15:04 score@@5670",
+    "solution":"ei!appkaaei!ppdbbbbbbblaei!r'lyehppdbbr'lyebbaei!r'lyehppdbbbbdpapppaei!r'lyehpkbei!ei!r'lyehpppkbeibbbbaei!r'lyehpppkbei!ei!r'lyebbdppppppaaei!r'lyehkppaei!abbebbkpppkaaei!apdbdbdbbeiaaei!apdbdbdbbeibbdlaei!r'lyebbbbdppppppppaaei!r'lyehbbdpdebbdaei!r'lyehbbdpdei!ei!r'lyebbdppr'lyehei!aei!aei!ppdbbbbbdpdbbbdlaei!abbkaei!alkpaei!dldaaei!apaaei!abbbbbkaaei!ppdpdbbbbbbeiaaei!ppdpdbbbbbbdbbdlaei!r'lyebdpadpppaei!r'lyaaei!deibbdpdei!ei!apaaei!ppdpdbbbbbbbbdpppdbbblaei!abbeibaei!appaei!lbbbaei!ldaei!ppaaei!dbebdppaabbeiakaei!ppdpaeibbbedlaeibbdei!eidlaei!pdpdaaaei!apdeidaei!dbeikbbdlaei!dbedpaaaei!abbbbbdei!ei!abbbddaaei!r'lyedppr'lpddaaaei!r'lyehppaldaei!r'lyehpkbbbbkaaaei!r'lyehpkbbbbbdlaia! iakaaaia! ia!ei!r'lyehei!kpppaei!r'lyehei!laei!r'lyehei!ei!r'lyehbeiei!ei!r'lyehkbbbedpalaei!r'lyehkpppdpdbbkllaei!r'lyehkpppaaei!r'lyehkpppaei!r'lyehkbbbbdlaei!r'lyeheikpaei!r'lyeeibdaaei!r'lyedpprbbbbbldaei!r'lyedppr'lyehei!apaaei!ppdpdbbbbbbbdbdlaei!ppdpdbbbbbbdpdblaei!r'lyedpr'lppaei!r'lyedpdlaei!ppdpdbbbbbdbbkaaei!r'lyedppr'lyehei!apaaei!ppdpdbbbbbbdbbdlaei!r'lyebdppr'lppaei!r'lyeblaei!r'lyedppppdbbbbbbdlllaei!r'lyehapkbkaaia! ia!ei!r'lyeheikppppaei!r'lyeheikpaei!r'lyeeibebdppaaaei!r'lyebeiei!ei!r'lyedpprbbbbbldlaei!r'lyedpprbbbbdlaei!r'lyehppppaei!r'lyehpalaei!r'lyehr'lyebdbdeilayogsothothpppdlayogsothothpayogsothotbkaaaei!r'lyehr'lyer'ppppdbbdpaaaei!r'lyehr'lyer'lyebdayogsothothpdaph'nglui mglw'nafh cthulhu r'lyeh wgah'nag"
+  }
+]

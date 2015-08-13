@@ -1,0 +1,7 @@
+[
+  { "problemId":21,
+    "seed":0,
+    "tag":"gen825833 449.873s 08/10/15 01:33:15 score@@1490",
+    "solution":"eibbbbei!ei!pppaaei!aappalbbaei!aappalbaei!aappallei!aei!apalei!aei!appaei!aei!apaei!aei!aaei!aei!abbbbbbblaaei!aei!abbbbbbblaia! ia!aaia! ia!aei!ia! ia!abei!ia! ia!abbei!ia! ia!aeibbbbbbbbbaia! ia!aei!ia! ia!abei!ia! ia!abbei!ia! ia!abbbei!"
+  }
+]

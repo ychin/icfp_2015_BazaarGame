@@ -1,0 +1,1 @@
+@play_icfp2015 -f "problems/problem_2.json" -t 60 -m 100000000 -c 16 -p "Ei!" -p "Ia! Ia!" -p "R'lyeh" -p "Yuggoth" -p "Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn." -p "Tsathoggua" -p "yogsothoth"

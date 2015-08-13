@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script id="headscript" type="text/javascript">
+</script>
+
+<script type="text/javascript">
+
+
+// Debug print
+var debugPrintCount = 0;
+var debugLogMax = 5;
+var debugLogList = [];
+var debugLogTimeout = 1000;
+function DebugPrint(text) {
+    document.getElementById("debug").innerHTML = debugPrintCount++ + ': ' + text;
+}
+function DebugLog(text) {
+    var newEntry = { removed: false, text: debugPrintCount++ + ': ' + text };
+    debugLogList.push(newEntry);
+
+    function PrintDebugLog() {
+        if (debugLogList.length > debugLogMax) {
+            debugLogList.shift().removed = true;
+        }
+        document.getElementById("debug").innerHTML = '';
+        for (var i = 0; i < debugLogList.length; ++i) {
+            document.getElementById("debug").innerHTML += debugLogList[i].text + '<br />';
+        }
+    }
+    PrintDebugLog();
+
+    if (debugLogTimeout > 0) {
+        setTimeout(function() {
+            if (!newEntry.removed) {
+                debugLogList.shift();
+                newEntry.removed = true;
+                PrintDebugLog();
+            }
+        }, debugLogTimeout);
+    }
+}
+
+// Benchmarking
+function Benchmark(f) {
+    var startTime = (new Date()).getTime();
+    f();
+    var endTime = (new Date()).getTime();
+    return endTime - startTime;
+}
+
+Wcodes = ['p', '\'', '!', '.', '0', '3']
+Ecodes = ['b', 'c', 'e', 'f', 'y', '2']
+SWcodes = ['a', 'g', 'h', 'i', 'j', '4']
+SEcodes = ['l', 'm', 'n', 'o', ' ', '5']
+CWcodes = ['d', 'q', 'r', 'v', 'z', '1']
+CCWcodes = ['k', 's', 't', 'u', 'w', 'x']
+
+prettyOutput = { 'W': Wcodes, 'E': Ecodes, 'SW': SWcodes, 'SE': SEcodes, 'CW': CWcodes, 'CCW': CCWcodes };
+gameButtonOutput = { 'A': Wcodes, 'D': Ecodes, 'Z': SWcodes, 'C': SEcodes, 'E': CWcodes, 'Q': CCWcodes };
+
+function BodyLoad() {
+    document.getElementById("dirs").oninput = OnChange;
+}
+
+function OnChange() {
+    elem = document.getElementById("dirs");
+    elemOutput = document.getElementById("dirs_output");
+
+    var outputBuilder = '';
+    for (var cindex=0; cindex < elem.value.length; cindex++) {
+        var c = elem.value[cindex];
+
+        var foundOutput = null;
+
+        var outputConfig = prettyOutput;
+        if (document.getElementById('gameInput').checked) {
+            outputConfig = gameButtonOutput;
+        }
+
+        for (var key in outputConfig) {
+            for (var entryIndex=0; entryIndex < outputConfig[key].length; entryIndex++) {
+                if (outputConfig[key][entryIndex] == c.toLowerCase()) {
+                    foundOutput = key;
+                }
+            }
+            if (foundOutput !== null)
+                break;
+        }
+
+        if (foundOutput !== null) {
+            outputBuilder += foundOutput;
+        }
+        else {
+            outputBuilder += '<b>?</b>';
+        }
+
+        outputBuilder += ',';
+    }
+    elemOutput.innerHTML = outputBuilder;
+}
+
+</script>
+<style>
+    body {
+        /* margin-left: 0px; */
+    }
+</style>
+
+</head>
+<body onLoad="BodyLoad();">
+    <div id="debug"></div>
+
+    <!--
+    <a href="javascript:" onclick="OnClick();">Click Me</a>
+    -->
+    <div>
+        Game Input Button<input type="checkbox" id="gameInput" onchange="OnChange();">
+    </div>
+    <input type="text" id=dirs>
+    <div id=dirs_output></div>
+</body>
+</html>
+
+

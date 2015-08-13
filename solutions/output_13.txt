@@ -1,0 +1,7 @@
+[
+  { "problemId":13,
+    "seed":0,
+    "tag":"gen37586 449.867s 08/10/15 01:32:00 score@@2336",
+    "solution":"yogsothothtsathogguayuggotppppayuggothia! ia!apkbbbbeieieiei!lbbbbbar'lyehyogsothothtsathogguaei!yogsothothyuggotpr'lyebbbdppppppppppdbbbbbbbbbddpppppppaayogsothothyuggotbeidpdpdbbbbkpkbkkaayogsothothr'lyebbkpppappdbbdalayogsothotppppppdbbbdpppdbbbbbbbbbeiddldayuggothapapppdbbdapayuggothpdbbdaapppaapabbbbr'lyehaa"
+  }
+]

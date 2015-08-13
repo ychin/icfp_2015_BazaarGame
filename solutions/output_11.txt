@@ -1,0 +1,27 @@
+[
+  { "problemId":11,
+    "seed":0,
+    "tag":"gen8901 89.972s 08/10/15 01:11:00 score@@4257",
+    "solution":"yogsothothr'lyedr'lyehpr'lyehppppppppatsathogguayuggotpr'lyehppdbbbbbbayuggothei!r'lyehr'lyehr'lyehppppppaia! ia!r'lyehr'lyehei!appayogsothothayuggothppayogsothothayuggothpayogsothothayuggothayogsothothayuggotei!yogsothothayuggotppppppdbbbbblaia! ia!lbbbbbbbatsathogguaei!r'lyehtsathogguaei!aei!apppatsathogguaei!aei!appatsathogguaei!aei!pkbbbbbbdaia! iaeibbbatsathogguaei!aaabatsathogguaei!aapkbebdatsathogguaei!ppkbbbbbbei!tsathogguaei!aaapaia! ia!atsathogguaei!keiei!latsathogguaei!aei!apatsathogguaei!aei!katsathogguaei!aei!aaei!aei!aeiei!ia! ia!aei!aei!lbbeieibbatsathogguaei!abebkeibdatsathogguaei!apaatsathogguaei!abei!tsathogguaei!abbei!tsathogguar'lyehppkeiebbdaei!aei!aeieibbei!yogsothothapkei!ppppkbbbbbbbeibkayogsothothapkei!paaaaia! iaebbbbeibatsathogguaei!aei!aeikatsathogguaei!aei!pkbbbbbbdatsathogguaei!aei!aekbei!tsathogguaei!aei!pkbbbbbblltsathogguaei!aei!apatsathogguaei!aei!pkbbeibldaia! iabei!tsathogguar'lyekei!aei!aayogsothothapaapkeieikaia! ia!laayogsothothapappkppppdaei!aei!aeibbeiei!yogsothothaei!paayogsothothr'lyeh"
+  },
+  { "problemId":11,
+    "seed":12877,
+    "tag":"gen9922 89.974s 08/10/15 01:12:30 score@@4198",
+    "solution":"yogsothothr'lyedr'lyehpr'lyehppppppppatsathogguayuggotpr'lyehppaia! ia!lbei!yuggothyogsothothr'lyehyogsothothayugppppppkeieidaei!aei!abbeieieibbaei!aei!abbeiei!tsathogguaei!ppkbbbbbr'lyekbbkatsathogguaei!appkeiei!atsathogguaei!appkeiei!ia! ia!ayogsothothaeikeiekbei!ei!aei!lebbbei!tsathogguaei!aei!dbbatsathogguaei!aei!datsathogguaei!aeillatsathogguaei!aei!apapatsathogguaei!aei!apaatsathogguaei!aeibbkbbkaei!pppatsathogguayuggothei!aei!aeieiei!tsathogguaei!appppdatsathogguaei!appkbbebbeieidatsathogguaei!appkbbebbeiei!tsathogguaei!appkbbebbkaei!lei!aeibei!yogsothothaeilkekbeilayogsothothaei!pkpappkbbbbldbblayogsothothaei!pkpalkpppdei!yogsothothr'lyedbr'lyehpdei!adppkayogsothothr'lyedbr'lyehpdei!abbayogsothothaei!abkeibkeibaei!aeieiei!aappayogsothothaei!akeiebkei!yogsothothaei!pkei!pkeiei!ayogsothothaei!pkei!pkeiei!yogsothothr'lyehei!aei!leieibbbei!tsathogguaei!aei!aeikaei!aei!leiei!laei!aei!abeibei!ei!aeibbbeieltsathogguayuggpalaei!aei!aatsathogguaeibllbei!tsathogguaei!aei!ei!abeiei!ei!appaaei!ar'lyehr'lyehalap"
+  },
+  { "problemId":11,
+    "seed":20528,
+    "tag":"gen12315 89.967s 08/10/15 01:14:00 score@@4188",
+    "solution":"yogsothothr'lyedr'lyehpr'lyehppppppppatsathogguayuggotpr'lyehppayuggothei!r'lyehr'lyehr'lyehpppppdbbbbbaia! ia!r'lyehr'lyehei!appaia! ia!lbbeibbbbatsathogguaei!ar'lyekei!pppkbbbbbbdaia! ibbbbbbatsathogguaei!ppppdbbbbbdbdpdppdbbbbbddatsathogguaei!ar'lyekei!pppppaia! ia!lbbei!ia! ia!laei!aei!lbblaia! ia!r'lyehppdppdatsathogguaei!aaei!tsathogguaei!appkebbeibdapia! iabei!tsathogguaei!lbbkbbkabatsathogguaei!lbbkbbklei!aei!paaatsathogguaebbbkpppppppdppddaei!aei!ppaei!aeieibebbaei!aeieiblaei!ar'lyehr'lyddlaei!ar'lyehr'lyebkappaappdppdatsathogguaei!aabdatsathogguaei!aei!apaaei!aei!leiaaei!aeibei!ei!aaaei!ar'lyehr'ppppkebkpkapppaaei!ar'lyehr'lyehei!aaei!ar'lyehr'lyehei!abekkaei!ar'lyehr'lyehei!akaei!ar'lyehr'lyehei!abekaei!lbbbeilaeibbbbei!abei!ei!ar'lyehpppppdebbblleiddaia! iadei!akbkaebbbaei!ar'lyehei!appppdebbbllebkeillaei!ar'lyehei!appppdebbbllei!aei!ar'lyehei!appppdebbbllei!ia! ia!r'lyehei!aadlaei!aei!aei!ia! ia!r'lyerbbddbeiklia! ia!r'lyer'lyehlaei!aeiei!"
+  },
+  { "problemId":11,
+    "seed":16526,
+    "tag":"gen12580 89.971s 08/10/15 01:15:30 score@@3989",
+    "solution":"yogsothothr'lyedr'lyehpr'lyehppppppppatsathogguayuggotpr'lyehppayuggothei!r'lyehr'lyehr'lyehpppppdbbbbbaia! ia!r'lyehr'lyehei!appaia! ia!lbbeibbbbatsathogguaei!ar'lyehtsathogguaei!aei!aei!tsathogguaei!aei!apppatsathogguaei!aei!abei!tsathogguaei!aei!abbekbei!yogsothothaeiakpaappppaia! ia!lbei!ei!aei!apaayogsothothaeiakpkebbbeiaaei!aei!lbeiei!ei!aeibbbeiei!tsathogguaei!daei!aei!laeieiei!ei!ar'lyehappappdppdaei!ar'lyehpppppdbbbbbeiebkeibkatsathoggupppkbbbbbr'lyeheillia! ia!r'lyehppddlei!aebbbeilaia! ia!r'dppdbbbkbbbbbbkbbkklia! ia!atsathogguaei!kebbbbkatsathogguaei!apaatsathogguaei!aei!daei!aei!abei!tsathogguaeiebbbkbbkatsathogguaebbbkppppaaaltsathogguaei!ladaei!aeibeibei!ei!aei!paaei!ar'lyehr'lyehekpaaaaei!aei!ei!ar'lyehr'pppakbbkkaeieibeiblatsathogguaalldaei!apaaei!lbei!bbbei!ei!ar'lyehpppppdpaaldaei!ar'lyehbddddalei!ar'lyehei!aldllei!ar'lyehei!ppppalaaei!pppaei!aei!ei!ar'lyehebdppppppaapaalala"
+  },
+  { "problemId":11,
+    "seed":19558,
+    "tag":"gen10269 89.967s 08/10/15 01:17:00 score@@4308",
+    "solution":"yogsothothr'lyehia! ia!lei!atsathogguayuggothei!aei!aeieiei!ei!aei!abbbeieieibaei!aei!abbbei!ia! ia!r'lyebbbr'lyehlaei!aebbbeilaia! ia!r'lyehei!ppdei!tsathogguaei!aaekbeidabatsathogguaei!aaekbeidaatsathogguaei!aei!apkbei!tsathogguaei!aei!apppatsathogguaei!aei!ablatsathogguaei!aei!abkbbdlaia! ia!latsathogguaei!aebbkaadatsathogguaei!aei!katsathogguaei!ppkbbbbbbbbbkatsathogguaei!aei!aatsathogguaei!aei!latsathogguar'lyekei!abbdaia! iabeiei!yogsothothayuggpppppakei!yogsothothayuggotpaaia! iabbbeibei!ia! ia!lei!ayogsothothaei!akppkbbbbbeiadaei!aei!aeiebbbblaei!aei!aeiei!tsathogguaei!ppappdaei!aeibeiei!ia! ia!r'lyebbbr'ppddatsathogguaei!ppkbbbbbr'lyekbbkltsathogguaei!apalaaia! ia!atsathogguaei!apalayogsothothapkei!ppkbebbbeibkaei!aei!abebbbei!tsathogguaei!aeidatsathogguayuggothei!aei!aeiei!ei!aei!paatsathogguaei!leidatsathogguaebbbkpppppppdpaladatsathogguaei!abeiei!katsathogguaei!abebbbkaadatsathogguaei!abeiei!atsathogguaei!abeiei!yogsothothaeilkekbeila"
+  }
+]

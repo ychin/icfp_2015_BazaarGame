@@ -1,0 +1,20 @@
+<DefFontMaker>
+	<fontTypefaceName>Janda Manatee Solid</fontTypefaceName>
+	<fontPoints>12</fontPoints>
+  <generateNoOutline>1</generateNoOutline>
+  <antiAliasTechnique>3</antiAliasTechnique>
+  <usePhotoshopPointSize>0</usePhotoshopPointSize>
+  <pFontLayers>
+		<generatedTextureFormat>ARGB8888</generatedTextureFormat>
+		<generatedBorderSpace>5</generatedBorderSpace>
+		<generateWithEdges>0</generateWithEdges>
+		<generateColor>0 0 0 255</generateColor>
+    <generatedStrokeSize>2</generatedStrokeSize>
+	</pFontLayers>
+	<pFontLayers>
+		<generatedTextureFormat>ARGB8888</generatedTextureFormat>
+		<generatedBorderSpace>1</generatedBorderSpace>
+		<generateWithEdges>0</generateWithEdges>
+		<generateColor>255 255 255 255</generateColor>
+	</pFontLayers>
+</DefFontMaker>
