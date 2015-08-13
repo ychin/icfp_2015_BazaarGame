@@ -3,9 +3,11 @@
 
 #include "Precompile.h"
 
-#include <SDKDDKVer.h>
+#ifdef __WINDOWS__
+    #include <SDKDDKVer.h>
+    #include <tchar.h>
+#endif
 #include <stdio.h>
-#include <tchar.h>
 #include <stdlib.h>
 
 #include "HoneySim.h"
@@ -16,26 +18,44 @@ int gTimeLimit = 60*60*24; // time limit in seconds
 int gMemLimit = 2 * 1024;  // memory limit in MB
 int gNumCores = 1;
 
-uint64 HoneyGetSystemFrequency()
-{
-	uint64 qwTicksPerSec;
-	QueryPerformanceFrequency((LARGE_INTEGER *)&qwTicksPerSec);
-	return qwTicksPerSec;
-}
+#ifdef __WINDOWS__
+    uint64 HoneyGetSystemFrequency()
+    {
+        uint64 qwTicksPerSec;
+        QueryPerformanceFrequency((LARGE_INTEGER *)&qwTicksPerSec);
+        return qwTicksPerSec;
+    }
 
-float MillisecondsFromMachineTimeDiffFloat(uint64 machineTimeStart, uint64 machineTimeEnd)
-{
-	static float sSystemFrequency = 1.0f / (float)HoneyGetSystemFrequency();
-	uint64 timeDelta = machineTimeEnd - machineTimeStart;
-	return (float)timeDelta * 1000.0f * sSystemFrequency;
-}
+    float MillisecondsFromMachineTimeDiffFloat(uint64 machineTimeStart, uint64 machineTimeEnd)
+    {
+        static float sSystemFrequency = 1.0f / (float)HoneyGetSystemFrequency();
+        uint64 timeDelta = machineTimeEnd - machineTimeStart;
+        return (float)timeDelta * 1000.0f * sSystemFrequency;
+    }
 
-uint64 GetMachineTime()
-{
-	uint64 timeRead;
-	QueryPerformanceCounter((LARGE_INTEGER *)&timeRead);
-	return timeRead;
-}
+    uint64 GetMachineTime()
+    {
+        uint64 timeRead;
+        QueryPerformanceCounter((LARGE_INTEGER *)&timeRead);
+        return timeRead;
+    }
+#else
+    #include <time.h>
+    #include <sys/time.h>
+    uint64_t GetMachineTime()
+    {
+        timeval val;
+        gettimeofday(&val, NULL);
+
+        uint64_t timeMillisec = (uint64_t)val.tv_sec * 1000 + (uint64_t)val.tv_usec / 1000;
+        return timeMillisec;
+    }
+
+    float MillisecondsFromMachineTimeDiffFloat(uint64 machineTimeStart, uint64 machineTimeEnd)
+    {
+        return (float)(machineTimeEnd - machineTimeStart);
+    }
+#endif
 
 float GetGenerationTime(GeneAI* pAI, int numtrials)
 {
@@ -92,7 +112,7 @@ int RunnerSolveSeed(HoneyOutputInfo& output, int seedIdx, GeneAI* pAI, float tim
 	}
 
 	char elapsedMS[256];
-	sprintf(elapsedMS, "%.3fs", MillisecondsFromMachineTimeDiffFloat(startTime, GetMachineTime()) / 1000.0f);
+    sprintf(elapsedMS, "%.3fs", MillisecondsFromMachineTimeDiffFloat(startTime, GetMachineTime()) / 1000.0f);
 
 	char genIdxStr[256];
 	sprintf(genIdxStr, "gen%d", pAI->trials);
@@ -256,3 +276,10 @@ int _tmain(int argc, const char* argv[])
 
 	return 0;
 }
+
+#ifndef __WINDOWS__
+    int main(int argc, const char* argv[])
+    {
+        return _tmain(argc, argv);
+    }
+#endif
