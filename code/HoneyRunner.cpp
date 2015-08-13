@@ -3,7 +3,7 @@
 
 #include "Precompile.h"
 
-#ifdef __WINDOWS__
+#if defined(_WIN32) || defined(_WIN64)
     #include <SDKDDKVer.h>
     #include <tchar.h>
 #endif
@@ -18,7 +18,7 @@ int gTimeLimit = 60*60*24; // time limit in seconds
 int gMemLimit = 2 * 1024;  // memory limit in MB
 int gNumCores = 1;
 
-#ifdef __WINDOWS__
+#if defined(_WIN32) || defined(_WIN64)
     uint64 HoneyGetSystemFrequency()
     {
         uint64 qwTicksPerSec;
@@ -277,7 +277,7 @@ int _tmain(int argc, const char* argv[])
 	return 0;
 }
 
-#ifndef __WINDOWS__
+#if !(defined(_WIN32) || defined(_WIN64))
     int main(int argc, const char* argv[])
     {
         return _tmain(argc, argv);
