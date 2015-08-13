@@ -10,6 +10,8 @@ This was a submission for the ICFP 2015 programming contest, from August 7 - 9, 
 * Vu Ha
 * Yee Cheng Chin
 
+Our team was ranked 20 in the qualifying rounds.
+
 # Submission Details
 
 HELLO JUDGES!
@@ -33,6 +35,12 @@ Visual Studio 2015 should work too but is untested.
 3) Run make.bat
 
 4) The executable will be called play_icfp2015.exe in this directory!
+
+Mac / Linux instructions:
+
+1) The program was developed on Windows, but we have included a Makefile for Mac and Linux as well. Just simply run "make" in the root folder.
+
+2) The built executable will be called "play_icfp2015" in the root folder.
 
 ####################
 ## SOLUTION NOTES ##
