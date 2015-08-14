@@ -25,6 +25,10 @@ We have included a prebuilt binary of play_icfp2015.exe for your convenience.
 ## BUILD INSTRUCTIONS ##
 ########################
 
+The program was developed on Windows, but we have included a Makefile for Mac and Linux as well. 
+
+### Windows
+
 1) Start a Visual Studio command prompt (usually in All Programs > Visual
 Studio whatever > Visual Studio Tools > Visual Studio Command Prompt). The
 batch file supports command prompts of Visual Studio 2010, 2012, and 2013.
@@ -36,9 +40,9 @@ Visual Studio 2015 should work too but is untested.
 
 4) The executable will be called play_icfp2015.exe in this directory!
 
-Mac / Linux instructions:
+### Mac / Linux:
 
-1) The program was developed on Windows, but we have included a Makefile for Mac and Linux as well. Just simply run "make" in the root folder.
+1) Run "make" in the root folder.
 
 2) The built executable will be called "play_icfp2015" in the root folder.
 
