@@ -10,7 +10,7 @@ This was a submission for the ICFP 2015 programming contest, from August 7 - 9, 
 * Vu Ha
 * Yee Cheng Chin
 
-Our team was ranked 20 in the qualifying rounds.
+Our team was ranked 20th in the qualifying rounds, and 7th in the finals.
 
 # Submission Details
 
