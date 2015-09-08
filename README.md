@@ -89,12 +89,12 @@ Z/C: Move downwards
 The game will not let you play invalid 'stuttering moves'.  This is
 somewhat unintuitive for human players :)
 
-1: Play a random move
-2: Let the current AI choose a move.
-n/m: Choose the current AI
+* 1: Play a random move
+* 2: Let the current AI choose a move.
+* n/m: Choose the current AI
 
-5: Reset the genetic AI for the current problem, seed 0
-6: Run one generation of the genetic AI
+* 5: Reset the genetic AI for the current problem, seed 0
+* 6: Run one generation of the genetic AI
 
 There are other key-commands defined, but they may summon the Old Ones.
 Tread carefully.
