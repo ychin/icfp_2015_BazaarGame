@@ -1,6 +1,6 @@
 # ICFP 2015 Contest
 
-This was a submission for the ICFP 2015 programming contest, from August 7 - 9, 2015. For more information see the specification page: http://icfpcontest.org
+This was a submission for the ICFP 2015 programming contest, from August 7 - 9, 2015. For more information see the specification page: http://2015.icfpcontest.org/
 
 ## Team *Play the VR game Bazaar! Coming soon to the Oculus GearVR store. www.templegatesgames.com @Temple_Gates #BazaarGame*
 
